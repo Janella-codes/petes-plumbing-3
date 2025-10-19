@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Droplets className="h-6 w-6 text-blue-600" />
-            <span className="text-xl font-bold">AZ Flow Pros</span>
+            <span className="text-xl font-bold">Pete's Plumbing Service</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#" className="text-sm font-medium hover:text-blue-600 transition-colors">
@@ -51,10 +51,10 @@ export default function Home() {
                 <Clock className="mr-1 h-3.5 w-3.5" /> 24/7 Emergency Service
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                Arizona's Most Trusted Plumbing Experts
+                Sacramento's Most Trusted Plumbing Experts
               </h1>
               <p className="text-lg text-muted-foreground">
-                Professional plumbing services for residential and commercial properties across the Phoenix metro area.
+                Professional plumbing services for residential and commercial properties across the greater Sacramento area.
                 Fast, reliable, and guaranteed.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
             <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/plumbing1.jpg?height=400&width=600"
                 alt="Professional plumber at work"
                 fill
                 className="object-cover"
@@ -157,9 +157,9 @@ export default function Home() {
                 />
               </div>
               <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold">Why Choose AZ Flow Pros?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold">Why Choose Pete's Plumbing Service?</h2>
                 <p className="text-muted-foreground">
-                  With over 15 years of experience serving the Phoenix metro area, we've built our reputation on quality
+                  With over 15 years of experience serving the greater Sacramento area, we've built our reputation on quality
                   workmanship, fair pricing, and exceptional customer service.
                 </p>
                 <div className="grid gap-4">
@@ -260,7 +260,7 @@ export default function Home() {
         {/* CTA Section */}
         <section className="py-16 md:py-24 bg-blue-600 text-white">
           <div className="container text-center space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold">Need a Plumber in Arizona?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Need a Plumber in Sacramento?</h2>
             <p className="text-blue-100 max-w-2xl mx-auto text-lg">
               Whether it's an emergency repair or a planned installation, our team is ready to help.
             </p>
@@ -301,7 +301,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-medium">Address</p>
-                      <p className="text-muted-foreground">123 Plumbing Way, Phoenix, AZ 85001</p>
+                      <p className="text-muted-foreground">123 Plumbing Way, Sacramento, CA 95814</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
