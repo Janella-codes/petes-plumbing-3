@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Droplets className="h-6 w-6 text-blue-600" />
-            <span className="text-xl font-bold">Pete's Plumbing Service</span>
+            <span className="text-xl font-bold">First Mien Respond Plumbing</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#" className="text-sm font-medium hover:text-blue-600 transition-colors">
@@ -157,7 +157,7 @@ export default function Home() {
                 />
               </div>
               <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold">Why Choose Pete's Plumbing Service?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold">Why Choose First Mien Respond Plumbing?</h2>
                 <p className="text-muted-foreground">
                   With over 15 years of experience serving the greater Sacramento area, we've built our reputation on quality
                   workmanship, fair pricing, and exceptional customer service.
@@ -375,7 +375,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Droplets className="h-6 w-6 text-blue-400" />
-                <span className="text-xl font-bold text-white">AZ Flow Pros</span>
+                <span className="text-xl font-bold text-white">First Mien Respond Plumbing</span>
               </div>
               <p className="text-sm mb-4">
                 Professional plumbing services for residential and commercial properties across Arizona.
@@ -445,17 +445,17 @@ export default function Home() {
             <div>
               <h3 className="font-bold text-white mb-4">Service Areas</h3>
               <ul className="space-y-2 text-sm">
-                <li>Phoenix</li>
-                <li>Scottsdale</li>
-                <li>Tempe</li>
-                <li>Mesa</li>
-                <li>Chandler</li>
-                <li>Gilbert</li>
+                <li>Sacramento</li>
+                <li>Roseville</li>
+                <li>Folsom</li>
+                <li>Rancho Cordova</li>
+                <li>Citrus Heights</li>
+                <li>North Highlands</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm">© {new Date().getFullYear()} AZ Flow Pros. All rights reserved.</p>
+            <p className="text-sm">© {new Date().getFullYear()} First Mien Respond Plumbing. All rights reserved.</p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <Link href="#" className="text-sm hover:text-blue-400 transition-colors">
                 Privacy Policy
